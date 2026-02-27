@@ -170,3 +170,18 @@ print(val1, val2, ..., valn, sep=" ", end = '\n')
 # by default separator is space
 # by default end argument is \n
 '''
+
+# Flow Diagram
+'''
+Oval -> start/end
+Rhombus -> Input/ Output
+Rectangle -> Processing
+Diamod -> Condition
+Arrow -> Flow
+'''
+
+# while loop
+
+# Formatting string: f"{}"
+
+# for looping statements: self iterating loop
