@@ -185,3 +185,10 @@ Arrow -> Flow
 # Formatting string: f"{}"
 
 # for looping statements: self iterating loop
+
+# Split function: var.split(" ")
+'''
+s = "this is the world i live in"
+s.split(" ")
+['this', 'is', 'the', 'world', 'i', 'live', 'in']
+'''
