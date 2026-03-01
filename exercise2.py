@@ -15,6 +15,7 @@ print(d)
 '''
 
 # 2.
+'''
 s = 'aaabbaabcc'
 prev = s[0]
 ans = s[0]
@@ -29,3 +30,47 @@ for i in s:
     prev = i
 ans += str(count)
 print(ans)
+'''
+
+# 3.
+'''
+l = ["Aditi", "Sarvesh", "Pradipt", "Bhavik"]
+v = ""
+for i in l:
+    for j in i:
+        if j in "aeiouAEIOU":
+            v += j + ' '
+print(v)
+'''
+
+# 4.
+'''
+l = [(2+3j), 12, 'Program', 'Python', False]
+d = {}
+for i in l:
+    s = ''
+    if type(i) == str:
+        for j in i:
+            if j in "aeiouAEIOU":
+                s += j
+        d[i] = s
+print(d)
+'''
+
+# 5. break
+# for i in range(1,11):
+#     if(i == 5):
+#         break
+#     print(i)
+
+# 6. continue
+# for i in range(1,6):
+#     if(i == 4):
+#         continue
+#     print(i)
+
+# 7. pass
+# for i in range(1,4):
+#     for j in range(1,11):
+#         pass
+#     print(i)

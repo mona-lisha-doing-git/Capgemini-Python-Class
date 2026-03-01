@@ -192,3 +192,12 @@ s = "this is the world i live in"
 s.split(" ")
 ['this', 'is', 'the', 'world', 'i', 'live', 'in']
 '''
+
+# Nested for loop
+
+# Intermediate Termination Condition
+'''
+-> continue
+-> break
+-> pass
+'''
