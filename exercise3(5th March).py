@@ -67,6 +67,7 @@ for i in range(1, row+1):
 '''
 
 # Both Diagonal 
+'''
 row = int(input("Enter no. of rows: "))
 col = int(input("Enter no. of cols: "))
 for i in range(1, row+1):
@@ -80,3 +81,4 @@ for i in range(1, row+1):
         else:
             print("", end=" ")
     print()
+'''
