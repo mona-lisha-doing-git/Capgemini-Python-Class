@@ -15,9 +15,39 @@
 '''
 -> def func_name:
 -> return keyword
+-> Types:
+    - 1. Functions without return value and without arguments
+    - 2. Functions without return value and with arguments
+    - 3. Functions with return value and without arguments
+    - 4. Functions with return value and with arguments
 '''
 
-def add(a, b):
-    return a+b
+# Create a function that take two user inputs and returns the product
+# 1.
+def product():
+    a = int(input("Enter first value: "))
+    b = int(input("Enter second value: "))
+    print("Product:", a*b)
 
-print(add(2,3))
+# product()
+
+# 2.
+def product(a, b):
+    print("Product:", a*b)
+
+# product(2,3)
+# print(product(2,3)) this will print the value and too, for the print statement outside the function because it doesn't return any value
+
+# 3.
+def product1():
+    a = int(input("Enter first value: "))
+    b = int(input("Enter second value: "))
+    return a*b
+
+# print(product1())
+
+# 4.
+def product1(a, b): # formal arguments or parameters
+    return a*b
+
+# print(product1(3,6)) # actual arguments
