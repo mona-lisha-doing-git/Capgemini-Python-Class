@@ -22,6 +22,12 @@
     - 4. Functions with return value and with arguments
 '''
 
+# In memory space
+'''
+Variable Space: frame[0x90]
+Value Space: 0x90[- - - - -  return value]-> method area, method block, function block
+'''
+
 # Create a function that take two user inputs and returns the product
 # 1.
 def product():
@@ -51,3 +57,32 @@ def product1(a, b): # formal arguments or parameters
     return a*b
 
 # print(product1(3,6)) # actual arguments
+
+def func1(l):
+    a = []
+    for i in l:
+        if i<0:
+            a.append(i)
+    return a
+
+l = [1,2,3,-5,-3, -7]
+# print(func1(l))
+
+# Global variable changing
+i = 0
+def func2():
+    global i
+    i = 20
+func2()
+# print(i)
+
+# Nested Function, nonlocal keyword
+def func3():
+    name = "hi"
+    def dummy():
+        nonlocal name
+        name = "hello"
+    dummy()
+    print(name)
+    
+func3()
