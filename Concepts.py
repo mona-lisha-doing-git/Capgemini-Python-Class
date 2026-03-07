@@ -200,4 +200,25 @@ s.split(" ")
 -> continue
 -> break
 -> pass
+
+In functions: return
+'''
+# Functions
+'''
+- Types of functions
+- Formal arguments ()
+- Actual arguments
+- Functions in memory space
+- Global and Local Variable
+'''
+
+# Packing and Unpacking
+'''
+- Tuple and Dictionary (The interpreter does it in this format)
+- 
+'''
+
+'''
+Arguments
+- Types: Positional Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments(*args, **kwargs)
 '''

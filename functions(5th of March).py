@@ -68,6 +68,7 @@ def func1(l):
 l = [1,2,3,-5,-3, -7]
 # print(func1(l))
 
+# Global and Local Variable 
 # Global variable changing
 i = 0
 def func2():
@@ -85,4 +86,4 @@ def func3():
     dummy()
     print(name)
     
-func3()
+# func3()
