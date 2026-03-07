@@ -222,3 +222,10 @@ In functions: return
 Arguments
 - Types: Positional Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments(*args, **kwargs)
 '''
+
+# Classes and Objects
+'''
+- Class -> Blueprint of a variable
+- Object -> Instance of a class
+- Class have attributes and properties
+'''
