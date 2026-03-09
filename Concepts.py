@@ -228,4 +228,14 @@ Arguments
 - Class -> Blueprint of a variable
 - Object -> Instance of a class
 - Class have attributes and properties
+- In memory space: 
+    Variable Space-> class_name...  
+    Value Space-> 0x55(key layer: a1: attribute1, a2: attribute2... 
+                       value layer: a1: 0x11, a2: 0x9)
+    Memory Layer-> attribute1: a1, attribute2: a2, name: 0x3
+
+- Init constructor
+- Object method (self)
+- Class method (decorator-> @classmethod)
+- Static method (decorator-> @staticmethod)
 '''
