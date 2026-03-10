@@ -89,8 +89,8 @@ class Circle:
     def parameter(self):
         print(f"Parameter: {2*3.14*self.radius}")
 
-c1 = Circle()
-c1.area
-c1.parameter
+# c1 = Circle()
+# c1.area
+# c1.parameter
 
-# lambda, map, filter
+# lambda, map, filter 

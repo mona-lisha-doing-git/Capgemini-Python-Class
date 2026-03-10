@@ -238,4 +238,34 @@ Arguments
 - Object method (self)
 - Class method (decorator-> @classmethod)
 - Static method (decorator-> @staticmethod)
+
+- Four pillars of OOPS
+- Inheritance
+- Encaptulation
+- Abstraction
+- Polymorphism
+'''
+
+# File Handling
+'''
+File -> File is a type of container in which we contain or store some data
+- By using extension name, we can identity what type of data is there inside of it. Eg: .py, .mp4, .html, .mp3
+- Before handling any file, taking permission is very much important
+open(): 
+    open('filename.ext'/'absolute_path', mode)
+
+    Here, total 3 different modea are present,
+    1. write(w),
+    2. read(r),
+    3. append(a)
+
+    write mode
+    1. only write(w)
+'''
+
+# Package Architecture
+'''
+- Library: Collection of multiple packages.
+- Package: Folder/Directory(Multiple files)
+- Module: A file
 '''
